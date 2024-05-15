@@ -20,6 +20,14 @@ recent:
   layout: recent
   rss: # /atom.xml # npm i hexo-generator-feed
   limit: 10 # Count of posts
+  by_date: false # Order by updated, not date
+
+# Recent published
+recent_pub:
+  layout: recent
+  rss: # /atom.xml # npm i hexo-generator-feed
+  limit: 10 # Count of posts
+  by_date: true # Order by date
 
 # 页面树（与当前页面强关联的上下篇文章列表）
 tree:

@@ -12,6 +12,7 @@ class WikiPage {
     this.path = page.path
     this.path_key = page.path.replace('.html', '')
     this.layout = page.layout
+    this.date = page.date
     this.updated = page.updated
   }
 }
